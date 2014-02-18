@@ -100,28 +100,28 @@ $(function() {
 
   $('#sub').click(function() {
     if (notLastOp()) {
-      var outputText = $('#output').text() - '-';
+      var outputText = $('#output').text() + '-';
       $('output').text(outputText);
     }
   });
 
   $('#mul').click(function() {
     if (notLastOp()) {
-      var outputText = $('#output').text() * '*';
+      var outputText = $('#output').text() + '*';
       $('#output').text(outputText);
     }
   });
 
   $('#div').click(function() {
     if (notLastOp()) {
-      var outputText = $('#output').text() / '/';
+      var outputText = $('#output').text() + '/';
       $('#output').text(outputText);
     }
   });
 
   $('#mod').click(function() {
     if (notLastOp()) {
-      var outputText = $('#output').text() % '%';
+      var outputText = $('#output').text() + '%';
       $('#output').text(outputText);
     }
   });
