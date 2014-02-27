@@ -10,7 +10,7 @@ $('#say_hello').click(function() {
 // Problem 2 (Houdini) ------------------------------------------------------
 $('#disappear').click(function() {
   //WRITE CODE HERE
-  $("p id=houdini_text").hide();
+  $(<p id=houdini_text>).hide();
 });
 
 $('#reappear').click(function() {
