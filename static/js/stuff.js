@@ -15,13 +15,13 @@ $('#disappear').click(function() {
 
 $('#reappear').click(function() {
   //WRITE CODE HERE
-  $("houdini_text").show();
+  $("p").show();
 });
 
 
 // Problem 3 (Tickle Me Pink) -----------------------------------------------
 $('#pink').click(function() {
-	$("tickled_text").css('color','pink');
+	$("p").css('color','pink');
 });
 
 
