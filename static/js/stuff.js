@@ -20,7 +20,9 @@ $('#reappear').click(function() {
 
 
 // Problem 3 (Tickle Me Pink) -----------------------------------------------
-// WRITE CODE HERE
+$('#pink').click(function() {
+	$("pink_text").css('color','pink');
+});
 
 
 // Problem 4 (Greet Me) -----------------------------------------------------
