@@ -1,4 +1,4 @@
-alert('Error: #389'); // edit me!
+alert('Welcome'); // edit me!
 
 // Problem 1 (Say Hello!) ---------------------------------------------------
 $('#say_hello').click(function() {
@@ -10,6 +10,7 @@ $('#say_hello').click(function() {
 // Problem 2 (Houdini) ------------------------------------------------------
 $('#disappear').click(function() {
   //WRITE CODE HERE
+  $(<p id="houdini_text">).hide();
 });
 
 $('#reappear').click(function() {
