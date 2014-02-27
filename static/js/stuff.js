@@ -10,11 +10,12 @@ $('#say_hello').click(function() {
 // Problem 2 (Houdini) ------------------------------------------------------
 $('#disappear').click(function() {
   //WRITE CODE HERE
-  $(<p id="houdini_text">).hide();
+  $("houdini_text").hide();
 });
 
 $('#reappear').click(function() {
   //WRITE CODE HERE
+  $("houdini_text").show();
 });
 
 
